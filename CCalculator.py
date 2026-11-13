@@ -1,4 +1,5 @@
 # Объявление класса
+# Версия 0.0.1
 class CCalculator:
     def __init__(self, x, y):
         self.x = x  # ИСПРАВЛЕНО
