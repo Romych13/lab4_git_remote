@@ -7,6 +7,11 @@ class CCalculator:
     def Sum(self):
         return self.x + self.y
 
+    def Multiple(self):
+        return self.x * self.y
+
+
 # Создание объекта
 Mycalc = CCalculator(3, 2)
 print(Mycalc.Sum())
+print(Mycalc.Multiple())
