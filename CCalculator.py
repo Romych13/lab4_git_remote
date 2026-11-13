@@ -19,4 +19,7 @@ Mycalc = CCalculator(3, 2)
 print(Mycalc.Sum())
 print(Mycalc.Multiple())
 print(Mycalc.Dec())
+
 print("Изменение из ветки development")
+print("Изменение из ветки master")
+
