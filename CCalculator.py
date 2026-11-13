@@ -2,17 +2,20 @@
 # Версия 0.0.1
 class CCalculator:
     def __init__(self, x, y):
-        self.x = x  # ИСПРАВЛЕНО
-        self.y = y  # ИСПРАВЛЕНО
+        self.x = x
+        self.y = y
 
     def Sum(self):
         return self.x + self.y
 
     def Multiple(self):
         return self.x * self.y
+    def Dec(self):
+        return self.x - self.y
 
 
 # Создание объекта
 Mycalc = CCalculator(3, 2)
 print(Mycalc.Sum())
 print(Mycalc.Multiple())
+print(Mycalc.Dec())
