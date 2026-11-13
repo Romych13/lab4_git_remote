@@ -1,8 +1,8 @@
 # Объявление класса
 class CCalculator:
     def __init__(self, x, y):
-        self.x = 3  # ТУТ БАГ, который мы будем исправлять
-        self.y = 2
+        self.x = x  # ИСПРАВЛЕНО
+        self.y = y  # ИСПРАВЛЕНО
 
     def Sum(self):
         return self.x + self.y
